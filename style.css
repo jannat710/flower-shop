@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -12,9 +11,7 @@ body {
     height: 90%;
     width: 100%;
     background: rgba(229, 84, 115, 0.10);
-
 }
-
 .banner {
     display: flex;
     justify-content: center;
@@ -22,20 +19,17 @@ body {
     gap: 10%;
     padding-top: 30px;
 }
-
 .banner-title {
     color: #272727;
     font-size: 75px;
     width: 710px;
 }
-
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     width: 640px;
     margin: 20px 0px 20px;
 }
-
 .btn {
     border-radius: 8px;
     background: #E55473;
@@ -44,7 +38,6 @@ body {
     font-size: 20px;
     border: none;
 }
-
 /* featured styles */
 .feature-heading {
     margin-top: 100px;
@@ -53,7 +46,6 @@ body {
     text-align: center;
     margin: 100px 0px 25px;
 }
-
 .feature-text {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -62,7 +54,6 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
 .box-container {
     display: flex;
     justify-content: center;
@@ -70,44 +61,36 @@ body {
     text-align: center;
     gap: 2%;
 }
-
 .box {
     width: 310px;
     margin-bottom: 70px;
 }
-
 .box1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 20px;
 }
-
 .box2 {
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin-bottom: 20px;
 }
-
 .box3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     margin-bottom: 20px;
 }
-
 .pink-flower {
     margin-top: 55px;
     margin-bottom: -5px;
     width: 220px;
     height: 320px;
 }
-
 .anchor-test {
 
     color: #272727;
     font-size: 20px;
-
-
 }
 
 .other-features {
@@ -120,20 +103,16 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-
 }
-
 /* sales style */
 .highlight {
     color: #E55473;
 }
-
 .heading {
     color: #272727;
     font-size: 40px;
     margin-bottom: 25px;
 }
-
 .sales-details {
     color: rgba(39, 39, 39, 0.60);
     text-align: left;
@@ -141,21 +120,18 @@ body {
     width: 600px;
     margin-bottom: 30px;
 }
-
 .sales {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 150px;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);   
+    background: rgba(229, 84, 115, 0.05);
     padding: 170px 300px;
     height: 200px;
     margin-top: 80px;
     margin-bottom: 80px;
-
 }
-
 /* instagram styles */
 .insta-heading {
     color: #272727;
@@ -163,7 +139,6 @@ body {
     margin-bottom: 25px;
     text-align: center;
 }
-
 .insta-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -172,7 +147,6 @@ body {
     text-align: center;
     margin-bottom: 30px;
 }
-
 /* gallery styles */
 .gallery {
     display: flex;
@@ -181,7 +155,6 @@ body {
     margin: auto;
     width: 80%;
 }
-
 .gallary-pic {
     width: 350px;
     height: 400px;
@@ -202,27 +175,53 @@ body {
     margin: auto;
     height: 440px;
     margin-bottom: 125px;
-
 }
-.deals-title{
+
+.deals-title {
     color: #272727;
     font-size: 40px;
     margin-bottom: 25px;
     text-align: center;
 }
-.deals-description{
+.deals-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     text-align: center;
     margin-bottom: 15px;
 }
-.mail{
+.mail {
     width: 700px;
-height: 60px;
-border-radius: 8px;
-background: #FFF;
-border: none;
-color: rgba(39, 39, 39, 0.60);
-padding-left: 20px;
-font-size: 16px;
+    height: 60px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 20px;
+    font-size: 16px;
+}
+.foot {
+    background: #111010;
+    width: 100%;
+    height: 440px;
+}
+.f-heading {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 24px;
+}
+
+.f-details {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 32px;
 }
