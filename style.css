@@ -70,20 +70,25 @@ body {
     text-align: center;
     gap: 2%;
 }
-.box{
-    width: 310px;  
+
+.box {
+    width: 310px;
+    margin-bottom: 70px;
 }
+
 .box1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-bottom: 20px;
 }
+
 .box2 {
 
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     margin-bottom: 20px;
 }
+
 .box3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -96,9 +101,24 @@ body {
     width: 220px;
     height: 320px;
 }
-.anchor-test{
-    
+
+.anchor-test {
+
     color: #272727;
     font-size: 20px;
+   
+
+}
+
+.other-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 
 }
