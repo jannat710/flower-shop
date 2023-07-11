@@ -16,8 +16,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5% 9% 0% 9%;
-
+    gap: 10%;
+    padding-top: 30px;
 }
-.banner-image{
+.banner-title{
+    color: #272727;
+    font-size: 75px;
+    width: 710px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    width: 640px;
+    margin: 20px 0px 20px;
+}
+.btn{
+    border-radius: 8px;
+background: #E55473;
+padding: 20px 40px;
+color: white;
+font-size: 20px;
+border: none;
 }
