@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner styles */
+.banner-section{
+    height: 90%;
+    width: 100%;
+    background: aqua;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 9% 0% 9%;
+
+}
+.banner-image{
+}
