@@ -51,7 +51,7 @@ body {
     color: #272727;
     font-size: 40px;
     text-align: center;
-    margin: 100px 0px 20px;
+    margin: 100px 0px 25px;
 }
 
 .feature-text {
@@ -121,4 +121,32 @@ body {
     margin: auto;
     text-align: center;
 
+}
+/* sales style */
+.highlight{
+    color:#E55473 ;
+}
+.sales-heading{
+    color: #272727;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.sales-details{
+    color: rgba(39, 39, 39, 0.60);
+text-align: left;
+font-size: 18px;
+width: 600px;
+margin-bottom: 30px;
+}
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border-radius: 8px;
+    /* background: rgba(229, 84, 115, 0.05);    */
+    background: red;
+    padding: 170px 300px;
+    height: 200px;
+    
 }
